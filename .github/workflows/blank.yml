@@ -1,0 +1,27 @@
+name: Build LaTeX Resume
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v3
+
+    - name: Set up LaTeX environment
+      run: sudo apt-get update && sudo apt-get install -y texlive-full
+
+    - name: Compile LaTeX document
+      run: |
+        pdflatex resume.tex
+
+    - name: Upload PDF artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: resume
+        path: resume.pdf
