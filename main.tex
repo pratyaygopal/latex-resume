@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Pratyay Gopal
+% Based off of: https://gthub.com/sb2nov/resume
+% License : MITi
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Pratyay Gopal Reddy Rudravaram} \\ \vspace{1pt}
+    \href{mailto:pratyay2@illinois.edu}{\underline{pratyay2@illinois.edu}} $|$ 
+    \href{https://linkedin.com/in/pratyay-gopal}{\underline{linkedin.com/pratyay-gopal}} $|$
+    \href{https://github.com/pratyaygopal}{\underline{github.com/pratyaygopal}} $|$
+    \small US Citizen $|$ 
+\end{center}
+
+    \vspace{-20pt}
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University Of Illinois Urbana Champaign}{GPA: 3.72}
+      {Bachelor of Sciences in Computer Engineering - James Scholar Honors}{Expected December 2026}
+    
+  \resumeSubHeadingListEnd
+    \begin{itemize}
+    \setlength\itemsep{-5pt}
+    \item \textbf{Relevant Coursework} : Computer Systems Engineering, Digital Logic, FPGA, Paralell Programming, Data Structures, Electronics, Analog Signal Processing, Linear Algebra, Discrete Math
+    \item \textbf{Organizations} : SigArch, Department of ECE, IEEE, Association for Computing Machinery
+    \end{itemize}
+
+    \vspace{-15pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: SystemVerilog, Verilog, C, C++, VHDL, Python, Java}\\ 
+     \textbf{Tools}{: Git, Docker, Raspberry Pi, Arduino, KICAD, ORCAD, PADS, Altera Quartus, Vivado Xilinx, FL Studio, VS Code, PyCharm, IntelliJ} \\
+     \textbf{Certifications}{: VMware Certified Professional (VCP-DCV), VCTA, AWS Solutions Architect – Associate, ISC2 CC} \\
+      \textbf{Misc}{: Linux, Virtualization, Bash, Pspice}
+    }}
+ \end{itemize}
+
+    \vspace{-15pt}
+    
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Apollo Computing Laboratories}{June 2024 -- August 2024}
+      {Hardware Design Intern}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Developed a power delivery board from concept to completion for high availability data-center applications.}
+        \resumeItem{Working on programming FPGA boards deployed in mission critical infrastructure using Verilog and VHDL.}
+        \resumeItem{Operated an automated SMD production line to assemble defense related PCBs.}
+        
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Grainger College of Engineering, ECE}{January 2024 -- Present}
+      {Course Staff (Digital Logic)}{Urbana, IL}
+      \resumeItemListStart
+        \resumeItem{Assessed student assignments weekly and provided constructive feedback and handled regrade requests.}
+        \resumeItem{Corrected rubrics for Digital Logic Design Homework problems that did not have streamlined solutions.}
+        \resumeItem{Collaborated with ECE department faculty to develop a better homework structure to ensure faster grading.}
+      \resumeItemListEnd
+      
+\begin{comment}
+    \resumeSubheading
+      {ECE 220 Grader}{August 2024 -- Present}
+      {University of Illinois Urbana Champaign}{Urbana, IL}
+      \resumeItemListStart
+        \resumeItem{Became a Grader for ECE220 (Intro to Computing Class) for getting an A with honors in the class}
+        \resumeItem{Helped grade the Homework and exams of 300+ students taking the course}
+      \resumeItemListEnd
+\end{comment}
+
+    \resumeSubheading
+      {Thermo Fisher Scientific}{May 2022 – June 2022}
+      {Embedded Engineering Intern}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Coded a Raspberry pi test-bench to calibrate a thermocouple for blood bank temperature regulation using python.}
+        \resumeItem{Simulator was deployed to 10+ locations across India and was used to calibrate blood bank coolers for a lower cost}
+        \resumeItem{Maintained and updated a spreadsheet of testing data for 100+ trials gathered from SPICE simulation.}
+    \resumeItemListEnd
+
+\begin{comment}
+    \resumeSubheading
+         {Intern}{January 2020 – May 2022}
+      {RCV Innovations PVT LTD}{Hyderabad, India}
+        \resumeItemListStart
+        \resumeItem{Organized Inventory of 100+ unique computer parts and learned how to build servers and PCs.}
+     \resumeItemListEnd
+\end{comment}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{FPGA Video Game Port} $|$ \emph{Vivado, FPGA, SPI, HDMI}}{}
+          \resumeItemListStart
+            \resumeItem{Ported a modified version of "Five Nights At Freddys" on a Spartan-7 based Urbana Board FPGA.}
+            \resumeItem{Created all of the game logic and graphics running at 55 Hz through HDMI and utilizes 270kB of RAM.}
+            \resumeItem{Optimized FPGA performance by reducing number of registers, BRAM, and LUTs required for design.}
+            \resumeItem{Demoed at the invite only ECE 385 showcase due to the complexity of the project.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Power Delivery Board} $|$ \emph{Orcad, PADS}}{}
+          \resumeItemListStart
+            \resumeItem{Designed a server power delivery board to power storage bays using a server power supply.}
+            \resumeItem{Used Orcad and PADS for design and layout and gained PCB design experience.}
+            \resumeItem{Verified and tested the final board after manufacturing to ensure that it works as intended.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Breadboard Synth} $|$ \emph{Falstad, Arduino, Oscilloscopes}}{}
+          \resumeItemListStart
+            \resumeItem{Generated and Implemented 4 synth modules for a fully modular music synthesizer for the ECE198 Honors lab.}
+            \resumeItem{Used Falstad for design and worked with electrical workbench tools for testing.}
+            \resumeItem{Created an arduino testbench with 10+ modes to callibrate the tones notes.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{Temperature Regulation Calibrator} $|$ \emph{Raspberry Pi, Python, ADC/DAC}}{}
+          \resumeItemListStart
+            \resumeItem{Built a proof of concept of an affordable, temperature calibrator using thermocouples and Raspberry Pi.}
+            \resumeItem{Coded the functionality for calibrating the thermocouple using python and designed a circuit for the project.}
+            \resumeItem{Ran 100+ simulations of the ADC/DAC and recorded data to ensure minimal variance in the output voltage.}
+            \resumeItem{Github repo: https://github.com/pratyaygopal/Thermocouple-Simulator}
+          \resumeItemListEnd
+
+    \resumeProjectHeading
+          {\textbf{Linux Migration} $|$ \emph{Linux, Windows, Virtualization}}{}
+          \resumeItemListStart
+            \resumeItem{Improved the performance, security and stability of 30 computers by upgrading Windows(7/XP) to Linux Mint.}
+            \resumeItem{Created admin groups for privileged system access during computer based tests to monitor the students.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
