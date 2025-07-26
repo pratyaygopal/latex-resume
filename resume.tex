@@ -1,8 +1,6 @@
 %-------------------------
 % Resume in Latex
 % Author : Pratyay Gopal
-% Based off of: https://gthub.com/sb2nov/resume
-% License : MITi
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -106,18 +104,15 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
 
-\begin{center}
-    \textbf{\Huge \scshape Pratyay Gopal Reddy Rudravaram} \\ \vspace{1pt}
+\begin{flushleft}
+    \textbf{\huge \scshape Pratyay Rudravaram} \\ \vspace{1pt}
+    \underline{+1 945-268-0041} $|$ 
     \href{mailto:pratyay2@illinois.edu}{\underline{pratyay2@illinois.edu}} $|$ 
     \href{https://linkedin.com/in/pratyay-gopal}{\underline{linkedin.com/pratyay-gopal}} $|$
-    \href{https://github.com/pratyaygopal}{\underline{github.com/pratyaygopal}} $|$
-    \small US Citizen $|$ 
-\end{center}
+    \href{https://pratyaygopal.github.io/}{\underline{pratyaygopal.github.io}} $|$
+    \small US Citizen  
+\end{flushleft}
 
     \vspace{-20pt}
 
@@ -127,125 +122,124 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University Of Illinois Urbana Champaign}{GPA: 3.72}
-      {Bachelor of Sciences in Computer Engineering - James Scholar Honors}{Expected December 2026}
+      {University Of Illinois Urbana Champaign}{GPA: 3.66/4.00}
+      {Bachelor of Science in Computer Engineering, Minor in Mathematics - James Scholar Honors}{December 2026}
     
   \resumeSubHeadingListEnd
     \begin{itemize}
     \setlength\itemsep{-5pt}
-    \item \textbf{Relevant Coursework} : Computer Systems Engineering, Digital Logic, FPGA, Paralell Programming, Data Structures, Electronics, Analog Signal Processing, Linear Algebra, Discrete Math
-    \item \textbf{Organizations} : SigArch, Department of ECE, IEEE, Association for Computing Machinery
+    \item \textbf{Relevant Coursework} : Computer Organization and Design, FPGA, Operating Systems, Digital Design, Logic Synthesis, Parallel Programming, Data Structures, Electronics, Analog Signal Processing
     \end{itemize}
 
     \vspace{-15pt}
 
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: SystemVerilog, Verilog, C, C++, VHDL, Python, Java}\\ 
-     \textbf{Tools}{: Git, Docker, Raspberry Pi, Arduino, KICAD, ORCAD, PADS, Altera Quartus, Vivado Xilinx, FL Studio, VS Code, PyCharm, IntelliJ} \\
-     \textbf{Certifications}{: VMware Certified Professional (VCP-DCV), VCTA, AWS Solutions Architect – Associate, ISC2 CC} \\
-      \textbf{Misc}{: Linux, Virtualization, Bash, Pspice}
-    }}
- \end{itemize}
 
-    \vspace{-15pt}
-    
+
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Apollo Computing Laboratories}{June 2024 -- August 2024}
-      {Hardware Design Intern}{Hyderabad, India}
+      {RTL Verification Intern, Deepgrid Semi}{June 2025 -- July 2025}
+      {}{}
+      \vspace{-18pt}
       \resumeItemListStart
-        \resumeItem{Developed a power delivery board from concept to completion for high availability data-center applications.}
-        \resumeItem{Working on programming FPGA boards deployed in mission critical infrastructure using Verilog and VHDL.}
-        \resumeItem{Operated an automated SMD production line to assemble defense related PCBs.}
-        
+        \resumeItem{Developed a testing strategy to verify 5 modules of an open-source hardware accelerator using executed SystemVerilog UVM-esqe testbenches while ensuring 100\% functional correctness and simulation coverage.}
+        \resumeItem{Collaborated on the testing of a RISC-V based image detection system targeting the Arty A7 FPGA platform.}
       \resumeItemListEnd
-      
-    \resumeSubheading
-      {Grainger College of Engineering, ECE}{January 2024 -- Present}
-      {Course Staff (Digital Logic)}{Urbana, IL}
-      \resumeItemListStart
-        \resumeItem{Assessed student assignments weekly and provided constructive feedback and handled regrade requests.}
-        \resumeItem{Corrected rubrics for Digital Logic Design Homework problems that did not have streamlined solutions.}
-        \resumeItem{Collaborated with ECE department faculty to develop a better homework structure to ensure faster grading.}
-      \resumeItemListEnd
-      
-\begin{comment}
-    \resumeSubheading
-      {ECE 220 Grader}{August 2024 -- Present}
-      {University of Illinois Urbana Champaign}{Urbana, IL}
-      \resumeItemListStart
-        \resumeItem{Became a Grader for ECE220 (Intro to Computing Class) for getting an A with honors in the class}
-        \resumeItem{Helped grade the Homework and exams of 300+ students taking the course}
-      \resumeItemListEnd
-\end{comment}
 
     \resumeSubheading
-      {Thermo Fisher Scientific}{May 2022 – June 2022}
-      {Embedded Engineering Intern}{Hyderabad, India}
+      {PCB Design Intern, Apollo Computing Laboratories}{June 2024 -- Aug 2024}
+      {}{}
+      \vspace{-18pt}
+      \resumeItemListStart
+        \resumeItem{Developed a 2-layer 8-channel power delivery board to enable high availability data-center applications.}
+        \resumeItem{Designed and implemented hardware to control power supply to a  server, ensuring precise control.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Electronics Intern, Thermo Fisher Scientific}{May 2022 – July 2022}
+      {}{}
+      \vspace{-18pt}
       \resumeItemListStart
         \resumeItem{Coded a Raspberry pi test-bench to calibrate a thermocouple for blood bank temperature regulation using python.}
         \resumeItem{Simulator was deployed to 10+ locations across India and was used to calibrate blood bank coolers for a lower cost}
-        \resumeItem{Maintained and updated a spreadsheet of testing data for 100+ trials gathered from SPICE simulation.}
     \resumeItemListEnd
-
-\begin{comment}
-    \resumeSubheading
-         {Intern}{January 2020 – May 2022}
-      {RCV Innovations PVT LTD}{Hyderabad, India}
-        \resumeItemListStart
-        \resumeItem{Organized Inventory of 100+ unique computer parts and learned how to build servers and PCs.}
-     \resumeItemListEnd
-\end{comment}
 
   \resumeSubHeadingListEnd
 
-
+%--------UNI STUFF--------------------
+\section{Extracurriculars}
+  \resumeSubHeadingListStart
+    
+    \resumeSubheading
+      {Undergraduate Teaching Assistant, ECE385(Digital Systems and FPGA)}{Jan 2025 -- Present}
+      {}{}
+      \vspace{-18pt}
+      \resumeItemListStart
+        \resumeItem{Hosted office hours for course’s FPGA projects including VGA text controller and RISC processor.}
+        \resumeItem{Moderated the 1000+ members class discord server and clarified student questions on SV and FPGA testing.}
+        \resumeItem{Conducted demos, reviewed SystemVerilog testbenches, and facilitated hardware debugging and verification.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Officer, ACM SIGARCH@UIUC }{Aug 2024 -- Present}
+      {}{}
+      \vspace{-18pt}
+      \resumeItemListStart
+        \resumeItem{Officer and Workshop Lead for UIUC’s premier computer architecture student organization. }
+        \resumeItem{Designing workshops to introduce students to RTL design and simulation, computer architecture and ISAs.}
+        \resumeItem{Organized meetings to discuss papers on topics like transactional memory, branch prediction, and cache coherence.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
         \resumeProjectHeading
-          {\textbf{FPGA Video Game Port} $|$ \emph{Vivado, FPGA, SPI, HDMI}}{}
+          {\textbf{Superscalar Out-of-Order RISC-V CPU} $|$ \emph{SystemVerilog, Verdi, VCS}}{}
           \resumeItemListStart
-            \resumeItem{Ported a modified version of "Five Nights At Freddys" on a Spartan-7 based Urbana Board FPGA.}
-            \resumeItem{Created all of the game logic and graphics running at 55 Hz through HDMI and utilizes 270kB of RAM.}
-            \resumeItem{Optimized FPGA performance by reducing number of registers, BRAM, and LUTs required for design.}
-            \resumeItem{Demoed at the invite only ECE 385 showcase due to the complexity of the project.}
+            \resumeItem{Created a speculative out-of-order RISC-V CPU with an ERR architecture, implementing the RV32IM spec.}
+            \resumeItem{ Supports upto 2 instruction commits per cycle, multiple integer execution units, parametric multiplier/div, etc.}
+            \resumeItem{Synthesized dual-issue/commit core with L0+L1 cache on FreePDK’s 45nm process node at 525MHz}
           \resumeItemListEnd
         \resumeProjectHeading
-          {\textbf{Power Delivery Board} $|$ \emph{Orcad, PADS}}{}
+          {\textbf{FPGA-Based Video Game – Spartan-7 Board} $|${\fontfamily{qcr} \small \href{https://pratyaygopal.github.io/docs/fnaf.pdf}{pratyaygopal.github.io/docs/fnaf.pdf}}}{}
           \resumeItemListStart
-            \resumeItem{Designed a server power delivery board to power storage bays using a server power supply.}
-            \resumeItem{Used Orcad and PADS for design and layout and gained PCB design experience.}
-            \resumeItem{Verified and tested the final board after manufacturing to ensure that it works as intended.}
+            \resumeItem{Developed a modified port of Five Nights at Freddy’s on a Spartan-7 FPGA, achieving real-time gameplay.}
+            \resumeItem{Implemented and integrated an SPI-based keyboard interface supporting up to six simultaneous key presses.}
+            \resumeItem{Designed game logic, randomized seed selection and optimized scalable graphics within a 270 KB RAM constraint.}
+            \resumeItem{Recognized as one of the top 10 projects in ECE 385 and showcased for its technical complexity.}
           \resumeItemListEnd
         \resumeProjectHeading
           {\textbf{Breadboard Synth} $|$ \emph{Falstad, Arduino, Oscilloscopes}}{}
           \resumeItemListStart
-            \resumeItem{Generated and Implemented 4 synth modules for a fully modular music synthesizer for the ECE198 Honors lab.}
+            \resumeItem{Designed and Implemented 4 modules for a fully modular music synthesizer for the ECE198 Honors lab.}
             \resumeItem{Used Falstad for design and worked with electrical workbench tools for testing.}
-            \resumeItem{Created an arduino testbench with 10+ modes to callibrate the tones notes.}
           \resumeItemListEnd
         \resumeProjectHeading
-          {\textbf{Temperature Regulation Calibrator} $|$ \emph{Raspberry Pi, Python, ADC/DAC}}{}
+          {\textbf{Temperature Regulation Calibrator} $|${\fontfamily{qcr} \small \href{https://github.com/pratyaygopal/Thermocouple-Simulator}{github.com/pratyaygopal/Thermocouple-Simulator}}}{}
           \resumeItemListStart
             \resumeItem{Built a proof of concept of an affordable, temperature calibrator using thermocouples and Raspberry Pi.}
-            \resumeItem{Coded the functionality for calibrating the thermocouple using python and designed a circuit for the project.}
             \resumeItem{Ran 100+ simulations of the ADC/DAC and recorded data to ensure minimal variance in the output voltage.}
-            \resumeItem{Github repo: https://github.com/pratyaygopal/Thermocouple-Simulator}
           \resumeItemListEnd
 
-    \resumeProjectHeading
-          {\textbf{Linux Migration} $|$ \emph{Linux, Windows, Virtualization}}{}
-          \resumeItemListStart
-            \resumeItem{Improved the performance, security and stability of 30 computers by upgrading Windows(7/XP) to Linux Mint.}
-            \resumeItem{Created admin groups for privileged system access during computer based tests to monitor the students.}
-          \resumeItemListEnd
     \resumeSubHeadingListEnd
+
+
+    %-----------PROGRAMMING SKILLS-----------
+    \section{Technical Skills}
+     \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+        \textbf{Languages}{: SystemVerilog, Verilog, Bash, C, C++, VHDL, Python, Java}\\ 
+        \vspace{2pt}
+        \textbf{Tools}{: Git, KICAD, ORCAD, PADS, Intel Quartus, Xilinx Vivado, VS Code, Verdi, VCS, Verilator} \\
+        \vspace{2pt}
+        \textbf{Protocols}{: AXI-4, AXI Stream, SPI, TCP, UDP, UART, I2C} \\
+        }}
+     \end{itemize}
+
+    \vspace{-15pt}
+
+    
 
 %-------------------------------------------
 \end{document}
